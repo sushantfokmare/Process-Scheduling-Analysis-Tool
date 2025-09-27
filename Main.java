@@ -10,7 +10,7 @@ class Process {
         this.id = id;
         this.burstTime = burstTime;
         this.arrivalTime = arrivalTime;
-        this.priority = priority;
+        this.priority = priority; 
     }
 }
 
@@ -258,3 +258,4 @@ public class Main {
         System.out.println("Average Waiting Time: " + (double) totalWaitingTime / processes.size());
     }
 }
+
